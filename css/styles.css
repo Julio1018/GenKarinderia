@@ -15,17 +15,19 @@ p {
 }
 
 /* Mobile Responsiveness */
-@media (max-width: 1000px) {
+@media (max-width: 990px) {
   .hero-text {
     text-align: center;
   }
 
   .food-photo {
-    width: auto;
+    margin: auto;
   }
+
   #foods {
     width: auto;
   }
+
 }
 
 /* Navbar */
@@ -47,8 +49,9 @@ p {
 }
 
 .food-photo {
-  height: 400px;
-  width: 500px;
+  display: block;
+  margin: auto;
+  width: 50%
 }
 
 .hero-text {
