@@ -21,8 +21,10 @@ p {
   }
 
   .food-photo {
-    height: 40%;
-    width: 40%
+    width: auto;
+  }
+  #foods {
+    width: auto;
   }
 }
 
@@ -46,7 +48,7 @@ p {
 
 .food-photo {
   height: 400px;
-  width: 1000px;
+  width: 500px;
 }
 
 .hero-text {
