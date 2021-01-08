@@ -1,0 +1,107 @@
+h1 {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+p {
+  font-family: Work+Sans;
+  font-weight: 300;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1000px) {
+  .hero-text {
+    text-align: center;
+  }
+
+  .food-photo {
+    height: 40%;
+    width: 40%
+  }
+}
+
+/* Navbar */
+.imglogo {
+  width: 30%;
+  height: 10%;
+}
+
+.navbarbg {
+  font-size: 20px;
+  background-image: linear-gradient(90deg, rgba(63, 207, 70, 0.7794468129048494) 21%, rgba(87, 163, 209, 0.8522759445575105) 100%, rgba(241, 241, 241, 0) 100%);
+}
+
+/* Hero Area */
+#foodarea {
+  background-image: linear-gradient(90deg, rgba(63, 207, 70, 0.7794468129048494) 21%, rgba(87, 163, 209, 0.8522759445575105) 100%, rgba(241, 241, 241, 0) 100%);
+  padding: 5px 20px 100px;
+  text-align: center;
+}
+
+.food-photo {
+  height: 400px;
+  width: 1000px;
+}
+
+.hero-text {
+  color: white;
+  position: relative;
+  margin: 7px 280px 30px;
+}
+
+.HeroButton {
+  position: relative;
+  margin: 30px;
+}
+
+.btn-danger {
+  margin-right: 20px;
+}
+
+/* History */
+#history {
+  background-color: #fff;
+  padding: 40px 20px 50px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.genda {
+  width: 10%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.history-header {
+  margin: 0 20px 50px;
+  color: blue;
+}
+
+p .history-text {
+  text-align: center;
+  float: right;
+}
+
+/* Menus */
+#menus {
+  background-image: linear-gradient(90deg, rgba(63, 207, 70, 0.7794468129048494) 21%, rgba(87, 163, 209, 0.8522759445575105) 100%, rgba(241, 241, 241, 0) 100%);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.text-menus {
+  color: white;
+}
+
+.carousel-indicators {
+  top: 500px;
+}
+
+/* Offers */
+/* Contact */
